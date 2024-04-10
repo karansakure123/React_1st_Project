@@ -1,0 +1,124 @@
+/*
+body{
+    background-color: rgb(237, 241, 245);
+}
+.mycontainer{
+    width: 70%;
+    margin-left:11rem;
+    padding: 3rem;
+}
+.card-title-1{
+    font-size: 2rem;
+    padding: 1.2rem;
+    text-align: center;
+}
+.card-text-1{
+    padding: 1rem;
+    text-align: justify;
+}
+.createacc-btn{
+      width: 90%;
+      margin-left: 2rem;
+     color: rgb(255, 255, 255);
+     background-color: rgb(173, 29, 173);
+     border-radius: 0px;
+}
+.already-btn{
+    width: 90%;
+    margin-left: 2rem;
+    margin-top: 1rem;
+   color: rgb(71, 68, 68);
+   background-color: rgb(207, 207, 207);
+   border-radius: 0px;
+   margin-bottom: 1rem;
+}
+
+.createacc-btn:hover{
+    color: white;
+}
+.already-btn:hover{
+background-color: rgb(68, 68, 68);
+}*/
+
+.signup-card {
+
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: rgb(252, 252, 252);
+}
+
+.card-title-1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.card-text-1 {
+
+    text-align: center;
+}
+
+.createacc-btn {
+    width: 90%;
+    margin-left: 2rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(206, 60, 206);
+    border-radius: 0px;
+}
+
+.createacc-btn:hover {
+    color: rgb(248, 248, 248);
+    background-color: rgb(177, 65, 199);
+    border-radius: 0px;
+}
+
+.already-btn {
+    margin-left: 2rem;
+
+    width: 90%;
+    color: rgb(65, 65, 65);
+    background-color: rgb(204, 204, 204);
+    border-radius: 0px;
+}
+
+.already-btn:hover {
+    color: rgb(77, 77, 77);
+    background-color: rgb(145, 145, 145);
+}
+
+@media (max-width: 767px) {
+
+    .mycontainer {
+        width: 100%;
+        height: 40vh !important;
+        padding: 10px;
+        margin-top: 20rem;
+    }
+
+    .card-title-1 {
+        text-align: left;
+
+        margin-top: 1rem;
+
+    }
+
+    .card-text-1 {
+        text-align: left;
+        margin-top: 1rem;
+    }
+
+    .createacc-btn {
+        background-color: rgb(206, 60, 206);
+
+    }
+
+    .createacc-btn,
+    .already-btn {
+        width: 100% !important;
+        margin-left: 0rem;
+    }
+
+    .button-container {
+        justify-content: start;
+        align-items: start;
+        /* Center items vertically */
+    }
+}
